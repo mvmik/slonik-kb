@@ -1,0 +1,5 @@
+config SHIELD_SLONIK_LEFT
+    def_bool $(shields_list_contains,slonik_left)
+
+config SHIELD_SLONIK_RIGHT
+    def_bool $(shields_list_contains,slonik_right)
