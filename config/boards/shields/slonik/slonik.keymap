@@ -10,7 +10,7 @@
     behaviors {
         ht_hp: hold_tap_hold_preffered {
             compatible = "zmk,behavior-hold-tap";
-            label = "HOLD_TAP_HOLD_PREFFERED";
+            #binding-cells = <2>;
             flavor = "hold-preferred";
             bindings = <&kp>, <&mo>;
         };
