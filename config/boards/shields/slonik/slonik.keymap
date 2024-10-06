@@ -13,6 +13,7 @@
             #binding-cells = <2>;
             flavor = "hold-preferred";
             bindings = <&kp>, <&mo>;
+            tapping-term-ms = <200>;
         };
     };
 
