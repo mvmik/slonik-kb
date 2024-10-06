@@ -7,6 +7,15 @@
 #define CONTROL    3
 
 / {
+    behaviors {
+        ht_hp: hold_tap_hold_preffered {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HOLD_TAP_HOLD_PREFFERED";
+            flavor = "hold-preferred";
+            bindings = <&kp>, <&mo>
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 // ┏━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━┓                                            ┏━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━┓
