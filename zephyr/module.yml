@@ -1,0 +1,4 @@
+name: zmk-keyboard-slonik
+build:
+  settings:
+    board_root: .

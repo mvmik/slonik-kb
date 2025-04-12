@@ -1,0 +1,13 @@
+file_format: "1"
+id: slonik
+name: Slonik
+type: shield
+url: https://github.com/mvmik/slonik-kb
+requires: [nice_nano_v2]
+exposes: []
+features:
+  - keys
+siblings:
+  - slonik_left
+  - slonik_right
+studio: true
